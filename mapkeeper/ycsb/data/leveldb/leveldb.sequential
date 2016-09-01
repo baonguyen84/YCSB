@@ -1,0 +1,1254 @@
+YCSB Client 0.1
+Command line: -db com.yahoo.ycsb.db.MapKeeperClient -P ../workloads/workloada -s -load
+Loading workload...
+Starting test.
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+ 0 sec: 0 operations; 
+ 10 sec: 76897 operations; 7676.65 current ops/sec; [INSERT AverageLatency(us)=12864.33] 
+ 20 sec: 149361 operations; 7242.05 current ops/sec; [INSERT AverageLatency(us)=13803.39] 
+ 30 sec: 226412 operations; 7702.79 current ops/sec; [INSERT AverageLatency(us)=12976.34] 
+ 40 sec: 292330 operations; 6589.82 current ops/sec; [INSERT AverageLatency(us)=15175.1] 
+ 50 sec: 373614 operations; 8125.15 current ops/sec; [INSERT AverageLatency(us)=12301.05] 
+ 60 sec: 441908 operations; 6827.35 current ops/sec; [INSERT AverageLatency(us)=14644.53] 
+ 70 sec: 516742 operations; 7481.16 current ops/sec; [INSERT AverageLatency(us)=12786.91] 
+ 80 sec: 593642 operations; 7687.69 current ops/sec; [INSERT AverageLatency(us)=13564.52] 
+ 90 sec: 662600 operations; 6893.73 current ops/sec; [INSERT AverageLatency(us)=14390.43] 
+ 100 sec: 726466 operations; 6384.68 current ops/sec; [INSERT AverageLatency(us)=15783.59] 
+ 110 sec: 785770 operations; 5928.62 current ops/sec; [INSERT AverageLatency(us)=16331.87] 
+ 120 sec: 849948 operations; 6415.88 current ops/sec; [INSERT AverageLatency(us)=16074.41] 
+ 130 sec: 915927 operations; 6595.92 current ops/sec; [INSERT AverageLatency(us)=15155.7] 
+ 140 sec: 971981 operations; 5603.72 current ops/sec; [INSERT AverageLatency(us)=17837.54] 
+ 150 sec: 1037337 operations; 6533.64 current ops/sec; [INSERT AverageLatency(us)=15276.7] 
+ 160 sec: 1110003 operations; 7232.61 current ops/sec; [INSERT AverageLatency(us)=13839.67] 
+ 170 sec: 1172362 operations; 6234.03 current ops/sec; [INSERT AverageLatency(us)=16037.08] 
+ 180 sec: 1243492 operations; 7110.16 current ops/sec; [INSERT AverageLatency(us)=14055.63] 
+ 190 sec: 1301810 operations; 5830.05 current ops/sec; [INSERT AverageLatency(us)=16890.46] 
+ 200 sec: 1379518 operations; 7767.69 current ops/sec; [INSERT AverageLatency(us)=13064.35] 
+ 210 sec: 1437711 operations; 5817.55 current ops/sec; [INSERT AverageLatency(us)=17189.35] 
+ 220 sec: 1515973 operations; 7823.85 current ops/sec; [INSERT AverageLatency(us)=12776.26] 
+ 230 sec: 1569423 operations; 5343.93 current ops/sec; [INSERT AverageLatency(us)=18633.74] 
+ 240 sec: 1653101 operations; 8317.07 current ops/sec; [INSERT AverageLatency(us)=12029.83] 
+ 250 sec: 1703206 operations; 5009 current ops/sec; [INSERT AverageLatency(us)=19949.11] 
+ 260 sec: 1784141 operations; 8090.26 current ops/sec; [INSERT AverageLatency(us)=12352.54] 
+ 270 sec: 1836531 operations; 5237.43 current ops/sec; [INSERT AverageLatency(us)=19094.6] 
+ 280 sec: 1898129 operations; 6157.95 current ops/sec; [INSERT AverageLatency(us)=16233.37] 
+ 290 sec: 1953350 operations; 5519.89 current ops/sec; [INSERT AverageLatency(us)=17800.71] 
+ 300 sec: 2020677 operations; 6730.68 current ops/sec; [INSERT AverageLatency(us)=15110.26] 
+ 310 sec: 2081205 operations; 6050.98 current ops/sec; [INSERT AverageLatency(us)=16525.19] 
+ 320 sec: 2142438 operations; 6106.81 current ops/sec; [INSERT AverageLatency(us)=16341.42] 
+ 330 sec: 2204530 operations; 6206.72 current ops/sec; [INSERT AverageLatency(us)=15622.2] 
+ 340 sec: 2276083 operations; 7153.15 current ops/sec; [INSERT AverageLatency(us)=14416.17] 
+ 350 sec: 2333120 operations; 5701.99 current ops/sec; [INSERT AverageLatency(us)=17304.02] 
+ 360 sec: 2408885 operations; 7574.23 current ops/sec; [INSERT AverageLatency(us)=13373.32] 
+ 370 sec: 2464321 operations; 5541.94 current ops/sec; [INSERT AverageLatency(us)=18035.04] 
+ 380 sec: 2527191 operations; 6285.11 current ops/sec; [INSERT AverageLatency(us)=15906.04] 
+ 390 sec: 2583967 operations; 5675.9 current ops/sec; [INSERT AverageLatency(us)=17594.87] 
+ 400 sec: 2640958 operations; 5697.39 current ops/sec; [INSERT AverageLatency(us)=17574.49] 
+ 410 sec: 2712526 operations; 7154.65 current ops/sec; [INSERT AverageLatency(us)=13756.15] 
+ 420 sec: 2760687 operations; 4814.17 current ops/sec; [INSERT AverageLatency(us)=21082.58] 
+ 430 sec: 2831654 operations; 7094.57 current ops/sec; [INSERT AverageLatency(us)=14092.38] 
+ 440 sec: 2881992 operations; 5032.79 current ops/sec; [INSERT AverageLatency(us)=19869.18] 
+ 450 sec: 2951942 operations; 6992.9 current ops/sec; [INSERT AverageLatency(us)=14295.62] 
+ 460 sec: 3010928 operations; 5896.24 current ops/sec; [INSERT AverageLatency(us)=16958.86] 
+ 470 sec: 3086518 operations; 7556.73 current ops/sec; [INSERT AverageLatency(us)=13224.07] 
+ 480 sec: 3108700 operations; 2217.53 current ops/sec; [INSERT AverageLatency(us)=44068.61] 
+ 490 sec: 3113361 operations; 465.96 current ops/sec; [INSERT AverageLatency(us)=213732.21] 
+ 500 sec: 3118149 operations; 478.66 current ops/sec; [INSERT AverageLatency(us)=207958.37] 
+ 510 sec: 3122891 operations; 474.06 current ops/sec; [INSERT AverageLatency(us)=212818.5] 
+ 520 sec: 3160711 operations; 3780.87 current ops/sec; [INSERT AverageLatency(us)=26987.97] 
+ 530 sec: 3223102 operations; 6237.23 current ops/sec; [INSERT AverageLatency(us)=16050.65] 
+ 540 sec: 3270261 operations; 4714.49 current ops/sec; [INSERT AverageLatency(us)=21213.57] 
+ 550 sec: 3339448 operations; 6916.63 current ops/sec; [INSERT AverageLatency(us)=14445.18] 
+ 560 sec: 3389886 operations; 5042.29 current ops/sec; [INSERT AverageLatency(us)=19836.72] 
+ 570 sec: 3458036 operations; 6812.96 current ops/sec; [INSERT AverageLatency(us)=14682.91] 
+ 580 sec: 3507893 operations; 4984.2 current ops/sec; [INSERT AverageLatency(us)=20049.84] 
+ 590 sec: 3575607 operations; 6768.69 current ops/sec; [INSERT AverageLatency(us)=14764.93] 
+ 600 sec: 3633357 operations; 5773.27 current ops/sec; [INSERT AverageLatency(us)=16932.93] 
+ 610 sec: 3693938 operations; 6056.28 current ops/sec; [INSERT AverageLatency(us)=16878.48] 
+ 620 sec: 3750770 operations; 5681.5 current ops/sec; [INSERT AverageLatency(us)=17597.01] 
+ 630 sec: 3811614 operations; 6082.58 current ops/sec; [INSERT AverageLatency(us)=16435.92] 
+ 640 sec: 3875084 operations; 6345.1 current ops/sec; [INSERT AverageLatency(us)=15057.77] 
+ 650 sec: 3893354 operations; 1826.45 current ops/sec; [INSERT AverageLatency(us)=55521.6] 
+ 660 sec: 3898023 operations; 466.71 current ops/sec; [INSERT AverageLatency(us)=215556.43] 
+ 670 sec: 3902879 operations; 485.45 current ops/sec; [INSERT AverageLatency(us)=206249.62] 
+ 680 sec: 3907597 operations; 471.66 current ops/sec; [INSERT AverageLatency(us)=212038.76] 
+ 690 sec: 3912497 operations; 489.8 current ops/sec; [INSERT AverageLatency(us)=203685.14] 
+ 700 sec: 3917259 operations; 476.06 current ops/sec; [INSERT AverageLatency(us)=210315.9] 
+ 710 sec: 3922027 operations; 476.66 current ops/sec; [INSERT AverageLatency(us)=208563.91] 
+ 720 sec: 3926941 operations; 491.2 current ops/sec; [INSERT AverageLatency(us)=204608.08] 
+ 730 sec: 3932443 operations; 550.03 current ops/sec; [INSERT AverageLatency(us)=186253.37] 
+ 740 sec: 3993678 operations; 6121.66 current ops/sec; [INSERT AverageLatency(us)=16325.49] 
+ 750 sec: 4042538 operations; 4884.53 current ops/sec; [INSERT AverageLatency(us)=20472.86] 
+ 760 sec: 4109215 operations; 6665.7 current ops/sec; [INSERT AverageLatency(us)=14994.58] 
+ 770 sec: 4159161 operations; 4993.1 current ops/sec; [INSERT AverageLatency(us)=19996.79] 
+ 780 sec: 4224641 operations; 6546.04 current ops/sec; [INSERT AverageLatency(us)=15299.34] 
+ 790 sec: 4279700 operations; 5504.25 current ops/sec; [INSERT AverageLatency(us)=18095.16] 
+ 800 sec: 4336044 operations; 5632.15 current ops/sec; [INSERT AverageLatency(us)=17816.72] 
+ 810 sec: 4392852 operations; 5679.1 current ops/sec; [INSERT AverageLatency(us)=17550.16] 
+ 820 sec: 4451527 operations; 5865.15 current ops/sec; [INSERT AverageLatency(us)=17088.29] 
+ 830 sec: 4518762 operations; 6721.48 current ops/sec; [INSERT AverageLatency(us)=14875.4] 
+ 840 sec: 4566638 operations; 4786.16 current ops/sec; [INSERT AverageLatency(us)=20879.11] 
+ 850 sec: 4634560 operations; 6790.16 current ops/sec; [INSERT AverageLatency(us)=14734.26] 
+ 860 sec: 4683746 operations; 4917.12 current ops/sec; [INSERT AverageLatency(us)=20300.92] 
+ 870 sec: 4748028 operations; 6426.27 current ops/sec; [INSERT AverageLatency(us)=15579.8] 
+ 880 sec: 4799283 operations; 5123.96 current ops/sec; [INSERT AverageLatency(us)=19506.5] 
+ 890 sec: 4861533 operations; 6223.13 current ops/sec; [INSERT AverageLatency(us)=16052.64] 
+ 900 sec: 4916106 operations; 5455.66 current ops/sec; [INSERT AverageLatency(us)=18343.69] 
+ 910 sec: 4924408 operations; 829.95 current ops/sec; [INSERT AverageLatency(us)=117429.36] 
+ 920 sec: 4928384 operations; 397.48 current ops/sec; [INSERT AverageLatency(us)=250534.03] 
+ 930 sec: 4932491 operations; 410.58 current ops/sec; [INSERT AverageLatency(us)=243298.43] 
+ 940 sec: 4936670 operations; 417.77 current ops/sec; [INSERT AverageLatency(us)=240569.22] 
+ 950 sec: 4940872 operations; 420.07 current ops/sec; [INSERT AverageLatency(us)=237689.81] 
+ 960 sec: 4945818 operations; 494.45 current ops/sec; [INSERT AverageLatency(us)=202534.09] 
+ 970 sec: 4950587 operations; 476.76 current ops/sec; [INSERT AverageLatency(us)=209991.06] 
+ 980 sec: 4955433 operations; 484.45 current ops/sec; [INSERT AverageLatency(us)=206279.84] 
+ 990 sec: 4960317 operations; 488.2 current ops/sec; [INSERT AverageLatency(us)=205062.82] 
+ 1000 sec: 4965054 operations; 473.56 current ops/sec; [INSERT AverageLatency(us)=210848.13] 
+ 1010 sec: 4969931 operations; 487.55 current ops/sec; [INSERT AverageLatency(us)=205289.87] 
+ 1020 sec: 4974792 operations; 485.91 current ops/sec; [INSERT AverageLatency(us)=205730.36] 
+ 1030 sec: 4984635 operations; 984 current ops/sec; [INSERT AverageLatency(us)=104137.73] 
+ 1040 sec: 5037969 operations; 5331.8 current ops/sec; [INSERT AverageLatency(us)=18750.66] 
+ 1050 sec: 5090210 operations; 5222.53 current ops/sec; [INSERT AverageLatency(us)=19145.11] 
+ 1060 sec: 5150493 operations; 6026.49 current ops/sec; [INSERT AverageLatency(us)=16590.67] 
+ 1070 sec: 5197060 operations; 4654.84 current ops/sec; [INSERT AverageLatency(us)=21471.88] 
+ 1080 sec: 5256807 operations; 5972.91 current ops/sec; [INSERT AverageLatency(us)=16733.37] 
+ 1090 sec: 5305410 operations; 4858.84 current ops/sec; [INSERT AverageLatency(us)=20537.87] 
+ 1100 sec: 5352980 operations; 4755.57 current ops/sec; [INSERT AverageLatency(us)=21079.53] 
+ 1110 sec: 5412840 operations; 5984.2 current ops/sec; [INSERT AverageLatency(us)=16692.89] 
+ 1120 sec: 5458913 operations; 4605.92 current ops/sec; [INSERT AverageLatency(us)=21707.13] 
+ 1130 sec: 5518661 operations; 5973.01 current ops/sec; [INSERT AverageLatency(us)=16732.79] 
+ 1140 sec: 5567880 operations; 4919.93 current ops/sec; [INSERT AverageLatency(us)=20264.38] 
+ 1150 sec: 5623000 operations; 5510.35 current ops/sec; [INSERT AverageLatency(us)=18176.43] 
+ 1160 sec: 5682499 operations; 5948.12 current ops/sec; [INSERT AverageLatency(us)=16832.02] 
+ 1170 sec: 5731131 operations; 4861.74 current ops/sec; [INSERT AverageLatency(us)=20565.17] 
+ 1180 sec: 5792058 operations; 6090.87 current ops/sec; [INSERT AverageLatency(us)=16416.13] 
+ 1190 sec: 5839893 operations; 4782.07 current ops/sec; [INSERT AverageLatency(us)=20899.39] 
+ 1200 sec: 5898681 operations; 5877.04 current ops/sec; [INSERT AverageLatency(us)=16990.9] 
+ 1210 sec: 5951556 operations; 5285.91 current ops/sec; [INSERT AverageLatency(us)=18944.35] 
+ 1220 sec: 5960162 operations; 860.34 current ops/sec; [INSERT AverageLatency(us)=112933.94] 
+ 1230 sec: 5964045 operations; 388.18 current ops/sec; [INSERT AverageLatency(us)=256661.83] 
+ 1240 sec: 5967845 operations; 379.89 current ops/sec; [INSERT AverageLatency(us)=264761.69] 
+ 1250 sec: 5972224 operations; 437.77 current ops/sec; [INSERT AverageLatency(us)=229122.06] 
+ 1260 sec: 5977137 operations; 491.15 current ops/sec; [INSERT AverageLatency(us)=203164.86] 
+ 1270 sec: 5981853 operations; 471.41 current ops/sec; [INSERT AverageLatency(us)=211521.73] 
+ 1280 sec: 5986724 operations; 486.95 current ops/sec; [INSERT AverageLatency(us)=205766.72] 
+ 1290 sec: 5991574 operations; 484.85 current ops/sec; [INSERT AverageLatency(us)=206457.23] 
+ 1300 sec: 5996315 operations; 473.91 current ops/sec; [INSERT AverageLatency(us)=210267.67] 
+ 1310 sec: 6001267 operations; 495.05 current ops/sec; [INSERT AverageLatency(us)=203741.72] 
+ 1320 sec: 6006043 operations; 477.46 current ops/sec; [INSERT AverageLatency(us)=208566.35] 
+ 1330 sec: 6014261 operations; 821.55 current ops/sec; [INSERT AverageLatency(us)=124660.6] 
+ 1340 sec: 6072420 operations; 5813.57 current ops/sec; [INSERT AverageLatency(us)=17211.4] 
+ 1350 sec: 6128668 operations; 5623.11 current ops/sec; [INSERT AverageLatency(us)=17761.84] 
+ 1360 sec: 6191367 operations; 6268.02 current ops/sec; [INSERT AverageLatency(us)=15952.71] 
+ 1370 sec: 6234636 operations; 4325.6 current ops/sec; [INSERT AverageLatency(us)=23110.22] 
+ 1380 sec: 6300247 operations; 6559.13 current ops/sec; [INSERT AverageLatency(us)=15236.58] 
+ 1390 sec: 6351428 operations; 5116.57 current ops/sec; [INSERT AverageLatency(us)=19548.77] 
+ 1400 sec: 6416717 operations; 6526.94 current ops/sec; [INSERT AverageLatency(us)=15278.72] 
+ 1410 sec: 6466440 operations; 4970.31 current ops/sec; [INSERT AverageLatency(us)=20033.47] 
+ 1420 sec: 6527573 operations; 6111.47 current ops/sec; [INSERT AverageLatency(us)=16467.68] 
+ 1430 sec: 6588048 operations; 6045.69 current ops/sec; [INSERT AverageLatency(us)=15937.67] 
+ 1440 sec: 6643323 operations; 5525.29 current ops/sec; [INSERT AverageLatency(us)=18740.89] 
+ 1450 sec: 6710665 operations; 6683.41 current ops/sec; [INSERT AverageLatency(us)=14866.58] 
+ 1460 sec: 6758186 operations; 4750.2 current ops/sec; [INSERT AverageLatency(us)=21162.61] 
+ 1470 sec: 6819852 operations; 6164.75 current ops/sec; [INSERT AverageLatency(us)=16197.36] 
+ 1480 sec: 6865232 operations; 4536.64 current ops/sec; [INSERT AverageLatency(us)=22065.03] 
+ 1490 sec: 6926942 operations; 6169.15 current ops/sec; [INSERT AverageLatency(us)=16208.75] 
+ 1500 sec: 6978615 operations; 5165.75 current ops/sec; [INSERT AverageLatency(us)=19327.11] 
+ 1510 sec: 6986764 operations; 814.66 current ops/sec; [INSERT AverageLatency(us)=119491.19] 
+ 1520 sec: 6990827 operations; 406.18 current ops/sec; [INSERT AverageLatency(us)=246851.44] 
+ 1530 sec: 6995740 operations; 491.15 current ops/sec; [INSERT AverageLatency(us)=203823.96] 
+ 1540 sec: 7000473 operations; 473.16 current ops/sec; [INSERT AverageLatency(us)=211292.74] 
+ 1550 sec: 7005351 operations; 487.65 current ops/sec; [INSERT AverageLatency(us)=205025.71] 
+ 1560 sec: 7010196 operations; 484.35 current ops/sec; [INSERT AverageLatency(us)=206573.04] 
+ 1570 sec: 7014936 operations; 473.86 current ops/sec; [INSERT AverageLatency(us)=211089.46] 
+ 1580 sec: 7019818 operations; 488.1 current ops/sec; [INSERT AverageLatency(us)=204838.63] 
+ 1590 sec: 7024603 operations; 478.36 current ops/sec; [INSERT AverageLatency(us)=209424.47] 
+ 1600 sec: 7031367 operations; 676.13 current ops/sec; [INSERT AverageLatency(us)=150802.91] 
+ 1610 sec: 7087881 operations; 5649.71 current ops/sec; [INSERT AverageLatency(us)=17747.92] 
+ 1620 sec: 7139021 operations; 5112.47 current ops/sec; [INSERT AverageLatency(us)=19560.23] 
+ 1630 sec: 7202781 operations; 6374.09 current ops/sec; [INSERT AverageLatency(us)=15681.11] 
+ 1640 sec: 7248392 operations; 4559.73 current ops/sec; [INSERT AverageLatency(us)=21924.45] 
+ 1650 sec: 7309761 operations; 6135.06 current ops/sec; [INSERT AverageLatency(us)=16300.11] 
+ 1660 sec: 7364700 operations; 5491.7 current ops/sec; [INSERT AverageLatency(us)=18205.05] 
+ 1670 sec: 7419742 operations; 5502.55 current ops/sec; [INSERT AverageLatency(us)=18166.64] 
+ 1680 sec: 7485857 operations; 6609.52 current ops/sec; [INSERT AverageLatency(us)=15120.05] 
+ 1690 sec: 7530404 operations; 4453.36 current ops/sec; [INSERT AverageLatency(us)=22455.74] 
+ 1700 sec: 7592319 operations; 6189.02 current ops/sec; [INSERT AverageLatency(us)=16152.6] 
+ 1710 sec: 7642416 operations; 5008.2 current ops/sec; [INSERT AverageLatency(us)=19964.94] 
+ 1720 sec: 7702260 operations; 5982.01 current ops/sec; [INSERT AverageLatency(us)=16679.97] 
+ 1730 sec: 7758443 operations; 5616.05 current ops/sec; [INSERT AverageLatency(us)=17810.34] 
+ 1740 sec: 7807681 operations; 4922.32 current ops/sec; [INSERT AverageLatency(us)=20305.84] 
+ 1750 sec: 7866151 operations; 5845.25 current ops/sec; [INSERT AverageLatency(us)=17134.93] 
+ 1760 sec: 7914574 operations; 4840.36 current ops/sec; [INSERT AverageLatency(us)=20650.41] 
+ 1770 sec: 7978565 operations; 6397.18 current ops/sec; [INSERT AverageLatency(us)=15628.63] 
+ 1780 sec: 8020581 operations; 4200.34 current ops/sec; [INSERT AverageLatency(us)=22793.54] 
+ 1790 sec: 8023632 operations; 305.04 current ops/sec; [INSERT AverageLatency(us)=328986] 
+ 1800 sec: 8028000 operations; 436.67 current ops/sec; [INSERT AverageLatency(us)=232336.27] 
+ 1810 sec: 8032732 operations; 473.06 current ops/sec; [INSERT AverageLatency(us)=211597] 
+ 1820 sec: 8037625 operations; 489.15 current ops/sec; [INSERT AverageLatency(us)=204825.72] 
+ 1830 sec: 8042439 operations; 481.26 current ops/sec; [INSERT AverageLatency(us)=207886.5] 
+ 1840 sec: 8047198 operations; 475.76 current ops/sec; [INSERT AverageLatency(us)=209590.44] 
+ 1850 sec: 8052097 operations; 489.75 current ops/sec; [INSERT AverageLatency(us)=202984.93] 
+ 1860 sec: 8056849 operations; 475.06 current ops/sec; [INSERT AverageLatency(us)=211363.43] 
+ 1870 sec: 8061366 operations; 451.61 current ops/sec; [INSERT AverageLatency(us)=221812.33] 
+ 1880 sec: 8082430 operations; 2105.77 current ops/sec; [INSERT AverageLatency(us)=48622.28] 
+ 1890 sec: 8141431 operations; 5898.33 current ops/sec; [INSERT AverageLatency(us)=16947.82] 
+ 1900 sec: 8201138 operations; 5968.91 current ops/sec; [INSERT AverageLatency(us)=16744.46] 
+ 1910 sec: 8265140 operations; 6398.92 current ops/sec; [INSERT AverageLatency(us)=15590.69] 
+ 1920 sec: 8308154 operations; 4299.68 current ops/sec; [INSERT AverageLatency(us)=23281.23] 
+ 1930 sec: 8368414 operations; 6024.19 current ops/sec; [INSERT AverageLatency(us)=16609.62] 
+ 1940 sec: 8421376 operations; 5294.61 current ops/sec; [INSERT AverageLatency(us)=18883.19] 
+ 1950 sec: 8485447 operations; 6404.54 current ops/sec; [INSERT AverageLatency(us)=15576.5] 
+ 1960 sec: 8535130 operations; 4966.81 current ops/sec; [INSERT AverageLatency(us)=20180.7] 
+ 1970 sec: 8598843 operations; 6369.39 current ops/sec; [INSERT AverageLatency(us)=15688.21] 
+ 1980 sec: 8654420 operations; 5556.03 current ops/sec; [INSERT AverageLatency(us)=17333.18] 
+ 1990 sec: 8703571 operations; 4913.63 current ops/sec; [INSERT AverageLatency(us)=21090.82] 
+ 2000 sec: 8760043 operations; 5645.51 current ops/sec; [INSERT AverageLatency(us)=17710.08] 
+ 2010 sec: 8808831 operations; 4877.34 current ops/sec; [INSERT AverageLatency(us)=20507.56] 
+ 2020 sec: 8863174 operations; 5432.67 current ops/sec; [INSERT AverageLatency(us)=18389.89] 
+ 2030 sec: 8914454 operations; 5126.97 current ops/sec; [INSERT AverageLatency(us)=19500.11] 
+ 2040 sec: 8961393 operations; 4692.49 current ops/sec; [INSERT AverageLatency(us)=21320.22] 
+ 2050 sec: 9018638 operations; 5722.78 current ops/sec; [INSERT AverageLatency(us)=17472.35] 
+ 2060 sec: 9051812 operations; 3316.41 current ops/sec; [INSERT AverageLatency(us)=28794.55] 
+ 2070 sec: 9054585 operations; 277.22 current ops/sec; [INSERT AverageLatency(us)=363609.63] 
+ 2080 sec: 9058324 operations; 373.79 current ops/sec; [INSERT AverageLatency(us)=270774.84] 
+ 2090 sec: 9063192 operations; 486.65 current ops/sec; [INSERT AverageLatency(us)=205069.04] 
+ 2100 sec: 9067944 operations; 475.06 current ops/sec; [INSERT AverageLatency(us)=211268.2] 
+ 2110 sec: 9072678 operations; 473.21 current ops/sec; [INSERT AverageLatency(us)=210936.4] 
+ 2120 sec: 9077566 operations; 488.65 current ops/sec; [INSERT AverageLatency(us)=204776.59] 
+ 2130 sec: 9082240 operations; 467.26 current ops/sec; [INSERT AverageLatency(us)=214361.11] 
+ 2140 sec: 9087057 operations; 481.56 current ops/sec; [INSERT AverageLatency(us)=207012.95] 
+ 2150 sec: 9091243 operations; 418.47 current ops/sec; [INSERT AverageLatency(us)=235862.7] 
+ 2160 sec: 9114828 operations; 2357.79 current ops/sec; [INSERT AverageLatency(us)=43961.65] 
+ 2170 sec: 9165394 operations; 5055.08 current ops/sec; [INSERT AverageLatency(us)=19810.37] 
+ 2180 sec: 9204306 operations; 3890.03 current ops/sec; [INSERT AverageLatency(us)=25700.95] 
+ 2190 sec: 9256455 operations; 5213.34 current ops/sec; [INSERT AverageLatency(us)=19166] 
+ 2200 sec: 9307570 operations; 5109.97 current ops/sec; [INSERT AverageLatency(us)=19549.68] 
+ 2210 sec: 9353669 operations; 4608.52 current ops/sec; [INSERT AverageLatency(us)=21721.24] 
+ 2220 sec: 9407991 operations; 5431.11 current ops/sec; [INSERT AverageLatency(us)=18411.99] 
+ 2230 sec: 9450830 operations; 4282.19 current ops/sec; [INSERT AverageLatency(us)=23323.23] 
+ 2240 sec: 9502809 operations; 5196.34 current ops/sec; [INSERT AverageLatency(us)=19199.29] 
+ 2250 sec: 9556730 operations; 5390.48 current ops/sec; [INSERT AverageLatency(us)=18548.95] 
+ 2260 sec: 9594667 operations; 3792.56 current ops/sec; [INSERT AverageLatency(us)=26410.21] 
+ 2270 sec: 9647408 operations; 5272.52 current ops/sec; [INSERT AverageLatency(us)=18993.41] 
+ 2280 sec: 9694230 operations; 4680.8 current ops/sec; [INSERT AverageLatency(us)=20776.74] 
+ 2290 sec: 9743618 operations; 4937.32 current ops/sec; [INSERT AverageLatency(us)=20785.13] 
+ 2300 sec: 9797672 operations; 5404.32 current ops/sec; [INSERT AverageLatency(us)=18506.33] 
+ 2310 sec: 9842405 operations; 4471.96 current ops/sec; [INSERT AverageLatency(us)=22314.56] 
+ 2320 sec: 9894823 operations; 5240.23 current ops/sec; [INSERT AverageLatency(us)=19079.94] 
+ 2331 sec: 9946830 operations; 4994.91 current ops/sec; [INSERT AverageLatency(us)=19496.22] 
+ 2341 sec: 9993760 operations; 4436.15 current ops/sec; [INSERT AverageLatency(us)=14823.02] 
+ 2342 sec: 10000000 operations; 10000 current ops/sec; [INSERT AverageLatency(us)=7022.76] 
+[OVERALL], RunTime(ms), 2342544.0
+[OVERALL], Throughput(ops/sec), 4268.8632529421
+[INSERT], Operations, 10000000
+[INSERT], AverageLatency(us), 23379.001597
+[INSERT], MinLatency(us), 82
+[INSERT], MaxLatency(us), 6058585
+[INSERT], 95thPercentileLatency(ms), 60
+[INSERT], 99thPercentileLatency(ms), 308
+[INSERT], Return=0, 10000000
+[INSERT], 0, 875681
+[INSERT], 1, 476537
+[INSERT], 2, 619016
+[INSERT], 3, 518416
+[INSERT], 4, 522887
+[INSERT], 5, 450705
+[INSERT], 6, 437174
+[INSERT], 7, 395987
+[INSERT], 8, 368515
+[INSERT], 9, 337879
+[INSERT], 10, 310717
+[INSERT], 11, 285844
+[INSERT], 12, 261201
+[INSERT], 13, 241554
+[INSERT], 14, 221507
+[INSERT], 15, 206014
+[INSERT], 16, 188606
+[INSERT], 17, 175530
+[INSERT], 18, 161034
+[INSERT], 19, 151454
+[INSERT], 20, 139279
+[INSERT], 21, 130972
+[INSERT], 22, 121364
+[INSERT], 23, 114404
+[INSERT], 24, 105957
+[INSERT], 25, 101122
+[INSERT], 26, 93301
+[INSERT], 27, 89628
+[INSERT], 28, 82643
+[INSERT], 29, 80408
+[INSERT], 30, 75482
+[INSERT], 31, 72376
+[INSERT], 32, 67803
+[INSERT], 33, 65715
+[INSERT], 34, 61869
+[INSERT], 35, 59647
+[INSERT], 36, 56539
+[INSERT], 37, 54603
+[INSERT], 38, 51873
+[INSERT], 39, 49037
+[INSERT], 40, 47168
+[INSERT], 41, 45102
+[INSERT], 42, 42708
+[INSERT], 43, 40768
+[INSERT], 44, 38822
+[INSERT], 45, 37104
+[INSERT], 46, 35108
+[INSERT], 47, 33972
+[INSERT], 48, 31635
+[INSERT], 49, 29952
+[INSERT], 50, 28538
+[INSERT], 51, 27234
+[INSERT], 52, 26001
+[INSERT], 53, 24632
+[INSERT], 54, 23348
+[INSERT], 55, 22200
+[INSERT], 56, 20875
+[INSERT], 57, 19799
+[INSERT], 58, 18784
+[INSERT], 59, 17632
+[INSERT], 60, 17083
+[INSERT], 61, 16383
+[INSERT], 62, 15232
+[INSERT], 63, 14306
+[INSERT], 64, 13423
+[INSERT], 65, 12791
+[INSERT], 66, 12091
+[INSERT], 67, 11319
+[INSERT], 68, 10804
+[INSERT], 69, 10363
+[INSERT], 70, 9525
+[INSERT], 71, 8941
+[INSERT], 72, 8388
+[INSERT], 73, 8044
+[INSERT], 74, 7566
+[INSERT], 75, 6986
+[INSERT], 76, 6641
+[INSERT], 77, 6365
+[INSERT], 78, 5903
+[INSERT], 79, 5595
+[INSERT], 80, 5215
+[INSERT], 81, 4881
+[INSERT], 82, 4559
+[INSERT], 83, 4466
+[INSERT], 84, 4183
+[INSERT], 85, 3930
+[INSERT], 86, 3582
+[INSERT], 87, 3516
+[INSERT], 88, 3222
+[INSERT], 89, 3052
+[INSERT], 90, 2908
+[INSERT], 91, 2730
+[INSERT], 92, 2532
+[INSERT], 93, 2342
+[INSERT], 94, 2216
+[INSERT], 95, 2199
+[INSERT], 96, 2034
+[INSERT], 97, 1904
+[INSERT], 98, 1723
+[INSERT], 99, 1737
+[INSERT], 100, 1676
+[INSERT], 101, 1524
+[INSERT], 102, 1491
+[INSERT], 103, 1475
+[INSERT], 104, 1402
+[INSERT], 105, 1387
+[INSERT], 106, 1234
+[INSERT], 107, 1244
+[INSERT], 108, 1176
+[INSERT], 109, 1102
+[INSERT], 110, 965
+[INSERT], 111, 995
+[INSERT], 112, 986
+[INSERT], 113, 945
+[INSERT], 114, 887
+[INSERT], 115, 866
+[INSERT], 116, 864
+[INSERT], 117, 816
+[INSERT], 118, 797
+[INSERT], 119, 782
+[INSERT], 120, 759
+[INSERT], 121, 734
+[INSERT], 122, 677
+[INSERT], 123, 651
+[INSERT], 124, 638
+[INSERT], 125, 649
+[INSERT], 126, 597
+[INSERT], 127, 578
+[INSERT], 128, 560
+[INSERT], 129, 593
+[INSERT], 130, 578
+[INSERT], 131, 606
+[INSERT], 132, 580
+[INSERT], 133, 612
+[INSERT], 134, 542
+[INSERT], 135, 610
+[INSERT], 136, 552
+[INSERT], 137, 604
+[INSERT], 138, 546
+[INSERT], 139, 596
+[INSERT], 140, 528
+[INSERT], 141, 624
+[INSERT], 142, 584
+[INSERT], 143, 712
+[INSERT], 144, 601
+[INSERT], 145, 776
+[INSERT], 146, 679
+[INSERT], 147, 842
+[INSERT], 148, 726
+[INSERT], 149, 915
+[INSERT], 150, 805
+[INSERT], 151, 1075
+[INSERT], 152, 901
+[INSERT], 153, 1140
+[INSERT], 154, 1008
+[INSERT], 155, 1315
+[INSERT], 156, 1060
+[INSERT], 157, 1531
+[INSERT], 158, 1108
+[INSERT], 159, 1478
+[INSERT], 160, 1161
+[INSERT], 161, 1567
+[INSERT], 162, 1204
+[INSERT], 163, 1712
+[INSERT], 164, 1309
+[INSERT], 165, 1683
+[INSERT], 166, 1275
+[INSERT], 167, 1742
+[INSERT], 168, 1412
+[INSERT], 169, 1781
+[INSERT], 170, 1374
+[INSERT], 171, 1716
+[INSERT], 172, 1347
+[INSERT], 173, 1707
+[INSERT], 174, 1352
+[INSERT], 175, 1677
+[INSERT], 176, 1359
+[INSERT], 177, 1602
+[INSERT], 178, 1220
+[INSERT], 179, 1435
+[INSERT], 180, 1252
+[INSERT], 181, 1440
+[INSERT], 182, 1206
+[INSERT], 183, 1324
+[INSERT], 184, 1198
+[INSERT], 185, 1209
+[INSERT], 186, 1099
+[INSERT], 187, 1151
+[INSERT], 188, 1023
+[INSERT], 189, 1087
+[INSERT], 190, 894
+[INSERT], 191, 996
+[INSERT], 192, 809
+[INSERT], 193, 813
+[INSERT], 194, 799
+[INSERT], 195, 721
+[INSERT], 196, 675
+[INSERT], 197, 738
+[INSERT], 198, 605
+[INSERT], 199, 645
+[INSERT], 200, 628
+[INSERT], 201, 578
+[INSERT], 202, 538
+[INSERT], 203, 539
+[INSERT], 204, 509
+[INSERT], 205, 487
+[INSERT], 206, 443
+[INSERT], 207, 467
+[INSERT], 208, 389
+[INSERT], 209, 392
+[INSERT], 210, 370
+[INSERT], 211, 360
+[INSERT], 212, 335
+[INSERT], 213, 312
+[INSERT], 214, 319
+[INSERT], 215, 306
+[INSERT], 216, 307
+[INSERT], 217, 298
+[INSERT], 218, 294
+[INSERT], 219, 293
+[INSERT], 220, 284
+[INSERT], 221, 309
+[INSERT], 222, 296
+[INSERT], 223, 289
+[INSERT], 224, 248
+[INSERT], 225, 273
+[INSERT], 226, 267
+[INSERT], 227, 251
+[INSERT], 228, 239
+[INSERT], 229, 263
+[INSERT], 230, 231
+[INSERT], 231, 258
+[INSERT], 232, 186
+[INSERT], 233, 273
+[INSERT], 234, 182
+[INSERT], 235, 195
+[INSERT], 236, 202
+[INSERT], 237, 217
+[INSERT], 238, 175
+[INSERT], 239, 193
+[INSERT], 240, 163
+[INSERT], 241, 195
+[INSERT], 242, 165
+[INSERT], 243, 186
+[INSERT], 244, 193
+[INSERT], 245, 221
+[INSERT], 246, 194
+[INSERT], 247, 184
+[INSERT], 248, 193
+[INSERT], 249, 219
+[INSERT], 250, 202
+[INSERT], 251, 228
+[INSERT], 252, 205
+[INSERT], 253, 214
+[INSERT], 254, 187
+[INSERT], 255, 246
+[INSERT], 256, 204
+[INSERT], 257, 243
+[INSERT], 258, 184
+[INSERT], 259, 249
+[INSERT], 260, 211
+[INSERT], 261, 257
+[INSERT], 262, 204
+[INSERT], 263, 288
+[INSERT], 264, 210
+[INSERT], 265, 242
+[INSERT], 266, 204
+[INSERT], 267, 271
+[INSERT], 268, 198
+[INSERT], 269, 282
+[INSERT], 270, 245
+[INSERT], 271, 293
+[INSERT], 272, 223
+[INSERT], 273, 299
+[INSERT], 274, 210
+[INSERT], 275, 331
+[INSERT], 276, 236
+[INSERT], 277, 312
+[INSERT], 278, 265
+[INSERT], 279, 336
+[INSERT], 280, 286
+[INSERT], 281, 404
+[INSERT], 282, 348
+[INSERT], 283, 432
+[INSERT], 284, 333
+[INSERT], 285, 436
+[INSERT], 286, 315
+[INSERT], 287, 458
+[INSERT], 288, 356
+[INSERT], 289, 467
+[INSERT], 290, 387
+[INSERT], 291, 519
+[INSERT], 292, 384
+[INSERT], 293, 506
+[INSERT], 294, 380
+[INSERT], 295, 542
+[INSERT], 296, 417
+[INSERT], 297, 515
+[INSERT], 298, 377
+[INSERT], 299, 555
+[INSERT], 300, 447
+[INSERT], 301, 561
+[INSERT], 302, 460
+[INSERT], 303, 572
+[INSERT], 304, 449
+[INSERT], 305, 606
+[INSERT], 306, 450
+[INSERT], 307, 579
+[INSERT], 308, 413
+[INSERT], 309, 538
+[INSERT], 310, 434
+[INSERT], 311, 555
+[INSERT], 312, 451
+[INSERT], 313, 579
+[INSERT], 314, 497
+[INSERT], 315, 597
+[INSERT], 316, 442
+[INSERT], 317, 591
+[INSERT], 318, 464
+[INSERT], 319, 609
+[INSERT], 320, 432
+[INSERT], 321, 554
+[INSERT], 322, 474
+[INSERT], 323, 525
+[INSERT], 324, 424
+[INSERT], 325, 557
+[INSERT], 326, 392
+[INSERT], 327, 479
+[INSERT], 328, 470
+[INSERT], 329, 505
+[INSERT], 330, 437
+[INSERT], 331, 505
+[INSERT], 332, 415
+[INSERT], 333, 446
+[INSERT], 334, 382
+[INSERT], 335, 497
+[INSERT], 336, 402
+[INSERT], 337, 455
+[INSERT], 338, 377
+[INSERT], 339, 427
+[INSERT], 340, 330
+[INSERT], 341, 398
+[INSERT], 342, 364
+[INSERT], 343, 377
+[INSERT], 344, 325
+[INSERT], 345, 334
+[INSERT], 346, 294
+[INSERT], 347, 319
+[INSERT], 348, 302
+[INSERT], 349, 302
+[INSERT], 350, 305
+[INSERT], 351, 294
+[INSERT], 352, 279
+[INSERT], 353, 260
+[INSERT], 354, 258
+[INSERT], 355, 271
+[INSERT], 356, 243
+[INSERT], 357, 270
+[INSERT], 358, 236
+[INSERT], 359, 259
+[INSERT], 360, 203
+[INSERT], 361, 230
+[INSERT], 362, 208
+[INSERT], 363, 205
+[INSERT], 364, 201
+[INSERT], 365, 223
+[INSERT], 366, 208
+[INSERT], 367, 212
+[INSERT], 368, 189
+[INSERT], 369, 171
+[INSERT], 370, 173
+[INSERT], 371, 156
+[INSERT], 372, 159
+[INSERT], 373, 185
+[INSERT], 374, 174
+[INSERT], 375, 186
+[INSERT], 376, 175
+[INSERT], 377, 189
+[INSERT], 378, 185
+[INSERT], 379, 178
+[INSERT], 380, 187
+[INSERT], 381, 201
+[INSERT], 382, 169
+[INSERT], 383, 180
+[INSERT], 384, 176
+[INSERT], 385, 156
+[INSERT], 386, 179
+[INSERT], 387, 200
+[INSERT], 388, 153
+[INSERT], 389, 186
+[INSERT], 390, 146
+[INSERT], 391, 191
+[INSERT], 392, 121
+[INSERT], 393, 181
+[INSERT], 394, 137
+[INSERT], 395, 200
+[INSERT], 396, 132
+[INSERT], 397, 187
+[INSERT], 398, 141
+[INSERT], 399, 190
+[INSERT], 400, 168
+[INSERT], 401, 220
+[INSERT], 402, 140
+[INSERT], 403, 201
+[INSERT], 404, 162
+[INSERT], 405, 240
+[INSERT], 406, 169
+[INSERT], 407, 214
+[INSERT], 408, 142
+[INSERT], 409, 224
+[INSERT], 410, 147
+[INSERT], 411, 198
+[INSERT], 412, 170
+[INSERT], 413, 186
+[INSERT], 414, 131
+[INSERT], 415, 204
+[INSERT], 416, 144
+[INSERT], 417, 186
+[INSERT], 418, 165
+[INSERT], 419, 186
+[INSERT], 420, 131
+[INSERT], 421, 213
+[INSERT], 422, 170
+[INSERT], 423, 229
+[INSERT], 424, 195
+[INSERT], 425, 233
+[INSERT], 426, 185
+[INSERT], 427, 267
+[INSERT], 428, 188
+[INSERT], 429, 276
+[INSERT], 430, 216
+[INSERT], 431, 269
+[INSERT], 432, 186
+[INSERT], 433, 277
+[INSERT], 434, 199
+[INSERT], 435, 283
+[INSERT], 436, 181
+[INSERT], 437, 254
+[INSERT], 438, 198
+[INSERT], 439, 250
+[INSERT], 440, 214
+[INSERT], 441, 232
+[INSERT], 442, 163
+[INSERT], 443, 275
+[INSERT], 444, 201
+[INSERT], 445, 226
+[INSERT], 446, 201
+[INSERT], 447, 275
+[INSERT], 448, 195
+[INSERT], 449, 262
+[INSERT], 450, 200
+[INSERT], 451, 221
+[INSERT], 452, 219
+[INSERT], 453, 282
+[INSERT], 454, 222
+[INSERT], 455, 243
+[INSERT], 456, 217
+[INSERT], 457, 253
+[INSERT], 458, 202
+[INSERT], 459, 251
+[INSERT], 460, 231
+[INSERT], 461, 260
+[INSERT], 462, 226
+[INSERT], 463, 274
+[INSERT], 464, 227
+[INSERT], 465, 229
+[INSERT], 466, 219
+[INSERT], 467, 234
+[INSERT], 468, 191
+[INSERT], 469, 253
+[INSERT], 470, 246
+[INSERT], 471, 224
+[INSERT], 472, 190
+[INSERT], 473, 220
+[INSERT], 474, 183
+[INSERT], 475, 224
+[INSERT], 476, 185
+[INSERT], 477, 228
+[INSERT], 478, 184
+[INSERT], 479, 221
+[INSERT], 480, 183
+[INSERT], 481, 256
+[INSERT], 482, 197
+[INSERT], 483, 248
+[INSERT], 484, 206
+[INSERT], 485, 233
+[INSERT], 486, 197
+[INSERT], 487, 207
+[INSERT], 488, 235
+[INSERT], 489, 205
+[INSERT], 490, 166
+[INSERT], 491, 203
+[INSERT], 492, 192
+[INSERT], 493, 195
+[INSERT], 494, 168
+[INSERT], 495, 180
+[INSERT], 496, 176
+[INSERT], 497, 184
+[INSERT], 498, 164
+[INSERT], 499, 177
+[INSERT], 500, 151
+[INSERT], 501, 162
+[INSERT], 502, 169
+[INSERT], 503, 151
+[INSERT], 504, 146
+[INSERT], 505, 180
+[INSERT], 506, 182
+[INSERT], 507, 171
+[INSERT], 508, 164
+[INSERT], 509, 159
+[INSERT], 510, 152
+[INSERT], 511, 185
+[INSERT], 512, 153
+[INSERT], 513, 165
+[INSERT], 514, 148
+[INSERT], 515, 176
+[INSERT], 516, 174
+[INSERT], 517, 164
+[INSERT], 518, 189
+[INSERT], 519, 176
+[INSERT], 520, 174
+[INSERT], 521, 176
+[INSERT], 522, 153
+[INSERT], 523, 222
+[INSERT], 524, 190
+[INSERT], 525, 188
+[INSERT], 526, 172
+[INSERT], 527, 207
+[INSERT], 528, 150
+[INSERT], 529, 213
+[INSERT], 530, 167
+[INSERT], 531, 209
+[INSERT], 532, 175
+[INSERT], 533, 190
+[INSERT], 534, 190
+[INSERT], 535, 196
+[INSERT], 536, 174
+[INSERT], 537, 190
+[INSERT], 538, 157
+[INSERT], 539, 179
+[INSERT], 540, 164
+[INSERT], 541, 167
+[INSERT], 542, 167
+[INSERT], 543, 202
+[INSERT], 544, 147
+[INSERT], 545, 197
+[INSERT], 546, 147
+[INSERT], 547, 189
+[INSERT], 548, 159
+[INSERT], 549, 188
+[INSERT], 550, 141
+[INSERT], 551, 180
+[INSERT], 552, 159
+[INSERT], 553, 176
+[INSERT], 554, 173
+[INSERT], 555, 208
+[INSERT], 556, 151
+[INSERT], 557, 184
+[INSERT], 558, 156
+[INSERT], 559, 180
+[INSERT], 560, 150
+[INSERT], 561, 142
+[INSERT], 562, 155
+[INSERT], 563, 174
+[INSERT], 564, 160
+[INSERT], 565, 176
+[INSERT], 566, 151
+[INSERT], 567, 180
+[INSERT], 568, 143
+[INSERT], 569, 187
+[INSERT], 570, 152
+[INSERT], 571, 172
+[INSERT], 572, 133
+[INSERT], 573, 200
+[INSERT], 574, 136
+[INSERT], 575, 179
+[INSERT], 576, 127
+[INSERT], 577, 174
+[INSERT], 578, 161
+[INSERT], 579, 171
+[INSERT], 580, 135
+[INSERT], 581, 158
+[INSERT], 582, 150
+[INSERT], 583, 161
+[INSERT], 584, 126
+[INSERT], 585, 154
+[INSERT], 586, 150
+[INSERT], 587, 148
+[INSERT], 588, 115
+[INSERT], 589, 149
+[INSERT], 590, 140
+[INSERT], 591, 163
+[INSERT], 592, 126
+[INSERT], 593, 149
+[INSERT], 594, 117
+[INSERT], 595, 153
+[INSERT], 596, 117
+[INSERT], 597, 138
+[INSERT], 598, 116
+[INSERT], 599, 111
+[INSERT], 600, 112
+[INSERT], 601, 161
+[INSERT], 602, 102
+[INSERT], 603, 129
+[INSERT], 604, 122
+[INSERT], 605, 140
+[INSERT], 606, 115
+[INSERT], 607, 126
+[INSERT], 608, 113
+[INSERT], 609, 134
+[INSERT], 610, 107
+[INSERT], 611, 166
+[INSERT], 612, 138
+[INSERT], 613, 140
+[INSERT], 614, 98
+[INSERT], 615, 115
+[INSERT], 616, 131
+[INSERT], 617, 139
+[INSERT], 618, 129
+[INSERT], 619, 128
+[INSERT], 620, 97
+[INSERT], 621, 131
+[INSERT], 622, 106
+[INSERT], 623, 131
+[INSERT], 624, 104
+[INSERT], 625, 131
+[INSERT], 626, 125
+[INSERT], 627, 126
+[INSERT], 628, 97
+[INSERT], 629, 130
+[INSERT], 630, 97
+[INSERT], 631, 136
+[INSERT], 632, 107
+[INSERT], 633, 110
+[INSERT], 634, 97
+[INSERT], 635, 98
+[INSERT], 636, 103
+[INSERT], 637, 103
+[INSERT], 638, 74
+[INSERT], 639, 113
+[INSERT], 640, 75
+[INSERT], 641, 98
+[INSERT], 642, 85
+[INSERT], 643, 79
+[INSERT], 644, 96
+[INSERT], 645, 78
+[INSERT], 646, 75
+[INSERT], 647, 95
+[INSERT], 648, 80
+[INSERT], 649, 87
+[INSERT], 650, 77
+[INSERT], 651, 87
+[INSERT], 652, 67
+[INSERT], 653, 92
+[INSERT], 654, 75
+[INSERT], 655, 88
+[INSERT], 656, 89
+[INSERT], 657, 88
+[INSERT], 658, 86
+[INSERT], 659, 104
+[INSERT], 660, 75
+[INSERT], 661, 114
+[INSERT], 662, 86
+[INSERT], 663, 96
+[INSERT], 664, 84
+[INSERT], 665, 108
+[INSERT], 666, 74
+[INSERT], 667, 114
+[INSERT], 668, 106
+[INSERT], 669, 99
+[INSERT], 670, 58
+[INSERT], 671, 99
+[INSERT], 672, 78
+[INSERT], 673, 86
+[INSERT], 674, 77
+[INSERT], 675, 91
+[INSERT], 676, 77
+[INSERT], 677, 84
+[INSERT], 678, 67
+[INSERT], 679, 68
+[INSERT], 680, 76
+[INSERT], 681, 89
+[INSERT], 682, 63
+[INSERT], 683, 87
+[INSERT], 684, 55
+[INSERT], 685, 75
+[INSERT], 686, 74
+[INSERT], 687, 92
+[INSERT], 688, 66
+[INSERT], 689, 84
+[INSERT], 690, 52
+[INSERT], 691, 88
+[INSERT], 692, 58
+[INSERT], 693, 83
+[INSERT], 694, 61
+[INSERT], 695, 85
+[INSERT], 696, 78
+[INSERT], 697, 87
+[INSERT], 698, 85
+[INSERT], 699, 95
+[INSERT], 700, 78
+[INSERT], 701, 108
+[INSERT], 702, 75
+[INSERT], 703, 107
+[INSERT], 704, 89
+[INSERT], 705, 105
+[INSERT], 706, 80
+[INSERT], 707, 96
+[INSERT], 708, 81
+[INSERT], 709, 86
+[INSERT], 710, 80
+[INSERT], 711, 97
+[INSERT], 712, 79
+[INSERT], 713, 95
+[INSERT], 714, 87
+[INSERT], 715, 102
+[INSERT], 716, 64
+[INSERT], 717, 106
+[INSERT], 718, 82
+[INSERT], 719, 109
+[INSERT], 720, 97
+[INSERT], 721, 84
+[INSERT], 722, 65
+[INSERT], 723, 80
+[INSERT], 724, 76
+[INSERT], 725, 73
+[INSERT], 726, 61
+[INSERT], 727, 87
+[INSERT], 728, 61
+[INSERT], 729, 75
+[INSERT], 730, 62
+[INSERT], 731, 68
+[INSERT], 732, 53
+[INSERT], 733, 74
+[INSERT], 734, 71
+[INSERT], 735, 89
+[INSERT], 736, 57
+[INSERT], 737, 65
+[INSERT], 738, 66
+[INSERT], 739, 72
+[INSERT], 740, 66
+[INSERT], 741, 69
+[INSERT], 742, 64
+[INSERT], 743, 65
+[INSERT], 744, 73
+[INSERT], 745, 81
+[INSERT], 746, 73
+[INSERT], 747, 88
+[INSERT], 748, 80
+[INSERT], 749, 104
+[INSERT], 750, 83
+[INSERT], 751, 89
+[INSERT], 752, 80
+[INSERT], 753, 75
+[INSERT], 754, 80
+[INSERT], 755, 92
+[INSERT], 756, 59
+[INSERT], 757, 80
+[INSERT], 758, 73
+[INSERT], 759, 79
+[INSERT], 760, 60
+[INSERT], 761, 77
+[INSERT], 762, 64
+[INSERT], 763, 60
+[INSERT], 764, 65
+[INSERT], 765, 67
+[INSERT], 766, 71
+[INSERT], 767, 64
+[INSERT], 768, 48
+[INSERT], 769, 68
+[INSERT], 770, 48
+[INSERT], 771, 66
+[INSERT], 772, 55
+[INSERT], 773, 67
+[INSERT], 774, 42
+[INSERT], 775, 70
+[INSERT], 776, 41
+[INSERT], 777, 60
+[INSERT], 778, 57
+[INSERT], 779, 71
+[INSERT], 780, 66
+[INSERT], 781, 60
+[INSERT], 782, 58
+[INSERT], 783, 59
+[INSERT], 784, 59
+[INSERT], 785, 69
+[INSERT], 786, 50
+[INSERT], 787, 61
+[INSERT], 788, 51
+[INSERT], 789, 69
+[INSERT], 790, 54
+[INSERT], 791, 61
+[INSERT], 792, 49
+[INSERT], 793, 68
+[INSERT], 794, 56
+[INSERT], 795, 55
+[INSERT], 796, 45
+[INSERT], 797, 63
+[INSERT], 798, 45
+[INSERT], 799, 60
+[INSERT], 800, 55
+[INSERT], 801, 67
+[INSERT], 802, 47
+[INSERT], 803, 66
+[INSERT], 804, 65
+[INSERT], 805, 52
+[INSERT], 806, 52
+[INSERT], 807, 46
+[INSERT], 808, 52
+[INSERT], 809, 53
+[INSERT], 810, 35
+[INSERT], 811, 67
+[INSERT], 812, 47
+[INSERT], 813, 46
+[INSERT], 814, 46
+[INSERT], 815, 60
+[INSERT], 816, 50
+[INSERT], 817, 41
+[INSERT], 818, 45
+[INSERT], 819, 60
+[INSERT], 820, 45
+[INSERT], 821, 51
+[INSERT], 822, 46
+[INSERT], 823, 60
+[INSERT], 824, 30
+[INSERT], 825, 50
+[INSERT], 826, 32
+[INSERT], 827, 45
+[INSERT], 828, 37
+[INSERT], 829, 63
+[INSERT], 830, 48
+[INSERT], 831, 35
+[INSERT], 832, 43
+[INSERT], 833, 47
+[INSERT], 834, 49
+[INSERT], 835, 50
+[INSERT], 836, 49
+[INSERT], 837, 39
+[INSERT], 838, 40
+[INSERT], 839, 41
+[INSERT], 840, 40
+[INSERT], 841, 58
+[INSERT], 842, 49
+[INSERT], 843, 41
+[INSERT], 844, 38
+[INSERT], 845, 48
+[INSERT], 846, 45
+[INSERT], 847, 65
+[INSERT], 848, 50
+[INSERT], 849, 49
+[INSERT], 850, 47
+[INSERT], 851, 50
+[INSERT], 852, 46
+[INSERT], 853, 59
+[INSERT], 854, 27
+[INSERT], 855, 51
+[INSERT], 856, 39
+[INSERT], 857, 53
+[INSERT], 858, 24
+[INSERT], 859, 44
+[INSERT], 860, 37
+[INSERT], 861, 42
+[INSERT], 862, 44
+[INSERT], 863, 42
+[INSERT], 864, 35
+[INSERT], 865, 44
+[INSERT], 866, 33
+[INSERT], 867, 32
+[INSERT], 868, 39
+[INSERT], 869, 39
+[INSERT], 870, 28
+[INSERT], 871, 38
+[INSERT], 872, 43
+[INSERT], 873, 46
+[INSERT], 874, 35
+[INSERT], 875, 41
+[INSERT], 876, 40
+[INSERT], 877, 49
+[INSERT], 878, 35
+[INSERT], 879, 46
+[INSERT], 880, 39
+[INSERT], 881, 45
+[INSERT], 882, 38
+[INSERT], 883, 50
+[INSERT], 884, 47
+[INSERT], 885, 45
+[INSERT], 886, 45
+[INSERT], 887, 33
+[INSERT], 888, 35
+[INSERT], 889, 48
+[INSERT], 890, 29
+[INSERT], 891, 39
+[INSERT], 892, 37
+[INSERT], 893, 39
+[INSERT], 894, 40
+[INSERT], 895, 44
+[INSERT], 896, 36
+[INSERT], 897, 35
+[INSERT], 898, 26
+[INSERT], 899, 24
+[INSERT], 900, 42
+[INSERT], 901, 33
+[INSERT], 902, 29
+[INSERT], 903, 29
+[INSERT], 904, 32
+[INSERT], 905, 51
+[INSERT], 906, 27
+[INSERT], 907, 31
+[INSERT], 908, 35
+[INSERT], 909, 44
+[INSERT], 910, 38
+[INSERT], 911, 49
+[INSERT], 912, 42
+[INSERT], 913, 44
+[INSERT], 914, 47
+[INSERT], 915, 51
+[INSERT], 916, 38
+[INSERT], 917, 48
+[INSERT], 918, 42
+[INSERT], 919, 53
+[INSERT], 920, 39
+[INSERT], 921, 48
+[INSERT], 922, 38
+[INSERT], 923, 40
+[INSERT], 924, 35
+[INSERT], 925, 43
+[INSERT], 926, 38
+[INSERT], 927, 44
+[INSERT], 928, 35
+[INSERT], 929, 44
+[INSERT], 930, 38
+[INSERT], 931, 39
+[INSERT], 932, 37
+[INSERT], 933, 46
+[INSERT], 934, 37
+[INSERT], 935, 52
+[INSERT], 936, 40
+[INSERT], 937, 47
+[INSERT], 938, 56
+[INSERT], 939, 47
+[INSERT], 940, 31
+[INSERT], 941, 51
+[INSERT], 942, 36
+[INSERT], 943, 67
+[INSERT], 944, 37
+[INSERT], 945, 50
+[INSERT], 946, 47
+[INSERT], 947, 49
+[INSERT], 948, 44
+[INSERT], 949, 52
+[INSERT], 950, 40
+[INSERT], 951, 42
+[INSERT], 952, 38
+[INSERT], 953, 25
+[INSERT], 954, 41
+[INSERT], 955, 56
+[INSERT], 956, 37
+[INSERT], 957, 36
+[INSERT], 958, 46
+[INSERT], 959, 38
+[INSERT], 960, 28
+[INSERT], 961, 36
+[INSERT], 962, 40
+[INSERT], 963, 39
+[INSERT], 964, 29
+[INSERT], 965, 38
+[INSERT], 966, 36
+[INSERT], 967, 40
+[INSERT], 968, 33
+[INSERT], 969, 36
+[INSERT], 970, 27
+[INSERT], 971, 29
+[INSERT], 972, 40
+[INSERT], 973, 26
+[INSERT], 974, 26
+[INSERT], 975, 27
+[INSERT], 976, 24
+[INSERT], 977, 26
+[INSERT], 978, 28
+[INSERT], 979, 26
+[INSERT], 980, 27
+[INSERT], 981, 23
+[INSERT], 982, 31
+[INSERT], 983, 28
+[INSERT], 984, 22
+[INSERT], 985, 37
+[INSERT], 986, 21
+[INSERT], 987, 17
+[INSERT], 988, 18
+[INSERT], 989, 32
+[INSERT], 990, 27
+[INSERT], 991, 32
+[INSERT], 992, 21
+[INSERT], 993, 29
+[INSERT], 994, 21
+[INSERT], 995, 32
+[INSERT], 996, 20
+[INSERT], 997, 26
+[INSERT], 998, 22
+[INSERT], 999, 24
+[INSERT], >1000, 9362
+java -cp /home/michim/gitdev/mapkeeper/ycsb/ycsb-0.1.4/core/lib/core-0.1.4.jar:/home/michim/gitdev/mapkeeper/ycsb/ycsb-0.1.4/nosqldb-binding/conf:/home/michim/gitdev/mapkeeper/ycsb/ycsb-0.1.4/jdbc-binding/conf:/home/michim/gitdev/mapkeeper/ycsb/ycsb-0.1.4/infinispan-binding/conf:/home/michim/gitdev/mapkeeper/ycsb/ycsb-0.1.4/mapkeeper-binding/lib/mapkeeper-binding-0.1.4.jar:/home/michim/gitdev/mapkeeper/ycsb/ycsb-0.1.4/hbase-binding/conf:/home/michim/gitdev/mapkeeper/ycsb/ycsb-0.1.4/gemfire-binding/conf:/home/michim/gitdev/mapkeeper/ycsb/ycsb-0.1.4/voldemort-binding/conf com.yahoo.ycsb.Client -db com.yahoo.ycsb.db.MapKeeperClient -P ../workloads/workloada -s -load

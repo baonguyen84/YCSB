@@ -1,0 +1,5 @@
+$ git clone git://github.com/brianfrankcooper/YCSB.git
+$ cd YCSB
+$ cp ../../lib/libthrift-0.6.1.jar db/mapkeeper/lib/
+$ cp ../../lib/mapkeeper.jar db/mapkeeper/lib/
+$ ant dbcompile-mapkeeper
