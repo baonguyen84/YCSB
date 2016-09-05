@@ -146,7 +146,10 @@ public class MapKeeperClient extends DB {
             if(ret == 0) {
                 decode(fields, strResponse(succ), result);
             }
-            return Status.OK;
+            if(ret == 1){
+				return Status.NOT_FOUND;
+			}
+			return Status.OK;	
         } catch(TException e) {
             e.printStackTrace();
            return Status.ERROR;
@@ -171,7 +174,8 @@ public class MapKeeperClient extends DB {
                     result.add(tuple);
                 }
             }
-             return Status.OK;
+			if(ret ==1) return Status.NOT_FOUND;
+			   return Status.OK;
         } catch(TException e) {
             e.printStackTrace();
               return Status.ERROR;
@@ -208,12 +212,9 @@ public class MapKeeperClient extends DB {
     public Status insert(String table, String key,
             HashMap<String, ByteIterator> values) {
         try {
-            int ret = ycsbThriftRet(c.insert(table, bufStr(key), encode(values)), ResponseCode.Success, ResponseCode.RecordExists);
-		if(ret == 0){
-                return Status.OK;
-            }
-			
-                return Status.NOT_FOUND;            
+            int ret = ycsbThriftRet(c.insert(table, bufStr(key), encode(values)), ResponseCode.Success, ResponseCode.RecordExists);	
+              if(ret == 1)  return Status.NOT_FOUND; 
+			                return Status.OK;           
         } catch(TException e) {
             e.printStackTrace();
               return Status.ERROR;
@@ -224,11 +225,8 @@ public class MapKeeperClient extends DB {
     public Status delete(String table, String key) {
         try {
             int ret = ycsbThriftRet(c.remove(table, bufStr(key)), ResponseCode.Success, ResponseCode.RecordExists);
-			if(ret == 0){
-                return Status.OK;
-            }
-			
-                return Status.NOT_FOUND;
+              if(ret == 1)  return Status.NOT_FOUND;
+			  return Status.OK;
             
         } catch(TException e) {
             e.printStackTrace();
